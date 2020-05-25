@@ -1,4 +1,6 @@
 module Lib where
 
-main :: IO ()
-main = putStrLn "Hello, Haskell!"
+import           Data.Text
+
+greeting :: Text
+greeting = "Hello, Haskell!"

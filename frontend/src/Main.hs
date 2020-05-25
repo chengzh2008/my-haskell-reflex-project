@@ -2,7 +2,8 @@
 
 module Main where
 
-import Reflex.Dom
+import           Reflex.Dom
+import           Lib
 
 main :: IO ()
-main = mainWidget $ text "hi"
+main = mainWidget $ text greeting
